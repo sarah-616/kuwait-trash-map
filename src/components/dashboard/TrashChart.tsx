@@ -35,6 +35,10 @@ const TrashChart = () => {
                 <stop offset="0%" stopColor="hsl(165, 80%, 45%)" stopOpacity={0.3} />
                 <stop offset="100%" stopColor="hsl(165, 80%, 45%)" stopOpacity={0} />
               </linearGradient>
+              <linearGradient id="tireGradient" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="0%" stopColor="hsl(38, 92%, 50%)" stopOpacity={0.3} />
+                <stop offset="100%" stopColor="hsl(38, 92%, 50%)" stopOpacity={0} />
+              </linearGradient>
             </defs>
             <CartesianGrid strokeDasharray="3 3" stroke="hsl(220, 16%, 18%)" />
             <XAxis dataKey="time" tick={{ fill: "hsl(215, 15%, 55%)", fontSize: 11 }} axisLine={false} tickLine={false} />
