@@ -1,4 +1,4 @@
-import { Trash2, Users, MapPin, AlertTriangle } from "lucide-react";
+import { Trash2, Users, MapPin, AlertTriangle, CircleDot } from "lucide-react";
 import DashboardHeader from "@/components/dashboard/DashboardHeader";
 import StatsCard from "@/components/dashboard/StatsCard";
 import MapPanel from "@/components/dashboard/MapPanel";
