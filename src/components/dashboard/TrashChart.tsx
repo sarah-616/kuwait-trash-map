@@ -59,6 +59,13 @@ const TrashChart = () => {
               strokeWidth={2}
               fill="url(#trashGradient)"
             />
+            <Area
+              type="monotone"
+              dataKey="tires"
+              stroke="hsl(38, 92%, 50%)"
+              strokeWidth={2}
+              fill="url(#tireGradient)"
+            />
           </AreaChart>
         </ResponsiveContainer>
       </div>

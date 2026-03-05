@@ -44,6 +44,14 @@ const Index = () => {
             trend={{ value: 42, label: "vs yesterday" }}
             variant="danger"
           />
+          <StatsCard
+            title="Tire Pollution"
+            value="156"
+            subtitle="Tires detected today"
+            icon={<Circle className="w-4 h-4" />}
+            trend={{ value: 23.1, label: "vs yesterday" }}
+            variant="warning"
+          />
         </div>
 
         {/* Map + Chart */}
