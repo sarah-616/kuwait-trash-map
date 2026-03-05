@@ -12,7 +12,7 @@ const Index = () => {
         <DashboardHeader />
 
         {/* Stats Row */}
-        <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 mb-6">
+        <div className="grid grid-cols-2 lg:grid-cols-5 gap-4 mb-6">
           <StatsCard
             title="Trash Score"
             value="47.2"
@@ -20,6 +20,14 @@ const Index = () => {
             icon={<Trash2 className="w-4 h-4" />}
             trend={{ value: -8.3, label: "vs yesterday" }}
             variant="warning"
+          />
+          <StatsCard
+            title="Tire Pollution"
+            value="312"
+            subtitle="Dumped tires detected"
+            icon={<CircleDot className="w-4 h-4" />}
+            trend={{ value: 15.7, label: "vs yesterday" }}
+            variant="danger"
           />
           <StatsCard
             title="People Detected"

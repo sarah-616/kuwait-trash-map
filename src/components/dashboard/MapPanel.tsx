@@ -25,8 +25,8 @@ const MapPanel = () => {
     <div className="rounded-lg bg-card border border-border p-5 flex flex-col h-full">
       <div className="flex items-center justify-between mb-4">
         <div>
-          <h2 className="text-lg font-semibold text-foreground">Live Trash Density Map</h2>
-          <p className="text-xs text-muted-foreground">Real-time monitoring across Kuwait</p>
+        <h2 className="text-lg font-semibold text-foreground">Live Pollution Density Map</h2>
+          <p className="text-xs text-muted-foreground">Trash & tire pollution monitoring across Kuwait</p>
         </div>
         <div className="flex items-center gap-4 text-xs">
           {[
