@@ -12,7 +12,7 @@ const Index = () => {
         <DashboardHeader />
 
         {/* Stats Row */}
-        <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 mb-6">
+        <div className="grid grid-cols-2 lg:grid-cols-5 gap-4 mb-6">
           <StatsCard
             title="Trash Score"
             value="47.2"
