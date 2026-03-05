@@ -13,7 +13,7 @@ const DashboardHeader = () => {
         </div>
         <div>
           <h1 className="text-xl font-bold tracking-tight text-foreground">EcoWatch Kuwait</h1>
-          <p className="text-xs text-muted-foreground">Smart Trash Monitoring System</p>
+          <p className="text-xs text-muted-foreground">Smart Trash & Tire Pollution Monitoring</p>
         </div>
       </div>
       <div className="flex items-center gap-4">
