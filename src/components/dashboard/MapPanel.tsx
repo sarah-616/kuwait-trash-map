@@ -1,11 +1,11 @@
 import kuwaitMap from "@/assets/kuwait-map.png";
 
 const zones = [
-  { name: "Kuwait City", status: "high", x: "62%", y: "42%" },
-  { name: "Hawalli", status: "medium", x: "65%", y: "50%" },
-  { name: "Jahra", status: "low", x: "38%", y: "30%" },
-  { name: "Ahmadi", status: "high", x: "58%", y: "68%" },
-  { name: "Farwaniya", status: "medium", x: "52%", y: "40%" },
+  { name: "Kuwait City", status: "high", x: "38%", y: "52%" },
+  { name: "Hawalli", status: "medium", x: "62%", y: "62%" },
+  { name: "Jahra", status: "low", x: "30%", y: "58%" },
+  { name: "Ahmadi", status: "high", x: "58%", y: "38%" },
+  { name: "Farwaniya", status: "medium", x: "68%", y: "25%" },
 ];
 
 const statusColors: Record<string, string> = {
@@ -25,8 +25,8 @@ const MapPanel = () => {
     <div className="rounded-lg bg-card border border-border p-5 flex flex-col h-full">
       <div className="flex items-center justify-between mb-4">
         <div>
-          <h2 className="text-lg font-semibold text-foreground">Live Trash Density Map</h2>
-          <p className="text-xs text-muted-foreground">Real-time monitoring across Kuwait</p>
+        <h2 className="text-lg font-semibold text-foreground">Live Pollution Density Map</h2>
+          <p className="text-xs text-muted-foreground">Trash & tire pollution monitoring across Kuwait</p>
         </div>
         <div className="flex items-center gap-4 text-xs">
           {[
