@@ -1,15 +1,15 @@
 import { AreaChart, Area, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer } from "recharts";
 
 const data = [
-  { time: "06:00", score: 15 },
-  { time: "08:00", score: 32 },
-  { time: "10:00", score: 45 },
-  { time: "12:00", score: 72 },
-  { time: "14:00", score: 58 },
-  { time: "16:00", score: 65 },
-  { time: "18:00", score: 48 },
-  { time: "20:00", score: 35 },
-  { time: "22:00", score: 20 },
+  { time: "06:00", score: 15, tires: 5 },
+  { time: "08:00", score: 32, tires: 12 },
+  { time: "10:00", score: 45, tires: 22 },
+  { time: "12:00", score: 72, tires: 38 },
+  { time: "14:00", score: 58, tires: 28 },
+  { time: "16:00", score: 65, tires: 31 },
+  { time: "18:00", score: 48, tires: 18 },
+  { time: "20:00", score: 35, tires: 10 },
+  { time: "22:00", score: 20, tires: 6 },
 ];
 
 const TrashChart = () => {
