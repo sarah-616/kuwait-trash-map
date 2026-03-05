@@ -15,8 +15,18 @@ const data = [
 const TrashChart = () => {
   return (
     <div className="rounded-lg bg-card border border-border p-5">
-      <h2 className="text-lg font-semibold text-foreground mb-1">Trash Score Timeline</h2>
-      <p className="text-xs text-muted-foreground mb-4">Average trash index across all zones today</p>
+      <h2 className="text-lg font-semibold text-foreground mb-1">Trash & Tire Timeline</h2>
+      <p className="text-xs text-muted-foreground mb-4">Trash index and tire pollution across all zones today</p>
+      <div className="flex items-center gap-4 mb-3 text-xs">
+        <div className="flex items-center gap-1.5">
+          <div className="w-2.5 h-2.5 rounded-full bg-primary" />
+          <span className="text-muted-foreground">Trash Score</span>
+        </div>
+        <div className="flex items-center gap-1.5">
+          <div className="w-2.5 h-2.5 rounded-full bg-warning" />
+          <span className="text-muted-foreground">Tire Pollution</span>
+        </div>
+      </div>
       <div className="h-[220px]">
         <ResponsiveContainer width="100%" height="100%">
           <AreaChart data={data}>
