@@ -1,4 +1,4 @@
-import { Trash2, Users, MapPin, AlertTriangle } from "lucide-react";
+import { Trash2, Users, MapPin, AlertTriangle, Circle } from "lucide-react";
 import DashboardHeader from "@/components/dashboard/DashboardHeader";
 import StatsCard from "@/components/dashboard/StatsCard";
 import MapPanel from "@/components/dashboard/MapPanel";
@@ -12,7 +12,7 @@ const Index = () => {
         <DashboardHeader />
 
         {/* Stats Row */}
-        <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 mb-6">
+        <div className="grid grid-cols-2 lg:grid-cols-5 gap-4 mb-6">
           <StatsCard
             title="Trash Score"
             value="47.2"
@@ -43,6 +43,14 @@ const Index = () => {
             icon={<AlertTriangle className="w-4 h-4" />}
             trend={{ value: 42, label: "vs yesterday" }}
             variant="danger"
+          />
+          <StatsCard
+            title="Tire Pollution"
+            value="156"
+            subtitle="Tires detected today"
+            icon={<Circle className="w-4 h-4" />}
+            trend={{ value: 23.1, label: "vs yesterday" }}
+            variant="warning"
           />
         </div>
 
