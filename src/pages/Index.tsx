@@ -1,5 +1,6 @@
 import { Trash2, Users, MapPin, AlertTriangle, Circle } from "lucide-react";
 import DashboardHeader from "@/components/dashboard/DashboardHeader";
+import NavBar from "@/components/dashboard/NavBar";
 import StatsCard from "@/components/dashboard/StatsCard";
 import MapPanel from "@/components/dashboard/MapPanel";
 import DetectionPanel from "@/components/dashboard/DetectionPanel";
