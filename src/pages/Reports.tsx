@@ -8,6 +8,7 @@ import detection1 from "@/assets/detection-1.jpg";
 import detection2 from "@/assets/detection-2.jpg";
 import detection3 from "@/assets/detection-3.jpg";
 import DashboardHeader from "@/components/dashboard/DashboardHeader";
+import NavBar from "@/components/dashboard/NavBar";
 
 const reports = [
   { id: 1, date: "2026-03-08 14:32", location: "Kuwait City – Zone A", level: "high" as const, score: 78, image: detection1 },
