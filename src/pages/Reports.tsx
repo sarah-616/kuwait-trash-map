@@ -34,6 +34,7 @@ const Reports = () => {
     <div className="min-h-screen bg-background px-6 pb-8">
       <div className="max-w-[1440px] mx-auto">
         <DashboardHeader />
+        <NavBar />
 
         <div className="rounded-lg bg-card border border-border p-5">
           <div className="flex items-center justify-between mb-5">
