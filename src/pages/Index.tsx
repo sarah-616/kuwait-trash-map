@@ -11,6 +11,7 @@ const Index = () => {
     <div className="min-h-screen bg-background px-6 pb-8">
       <div className="max-w-[1440px] mx-auto">
         <DashboardHeader />
+        <NavBar />
 
         {/* Stats Row */}
         <div className="grid grid-cols-2 lg:grid-cols-5 gap-4 mb-6">
